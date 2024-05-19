@@ -13,64 +13,64 @@
 
 | `100000 studentu` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
-| Failo Skaitymas     |  |  |  |
-| Studentu Rusiavimas |  |  |  |
-| Studentu Skirstymas |  |  |  |
+| Failo Skaitymas     | 0.137 | 0.138 | 0.142 |
+| Studentu Rikiavimas | 0.028 | 0.028 | 0.025 |
+| Studentu Skirstymas | 0.005 | 0.005 | 0.005 |
 |`.exe` Failo dydis   |108 KB|110 KB|125 KB|
 
 | `1000000 studentu` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
-| Failo Skaitymas     |  |  |  |
-| Studentu Rusiavimas |  |  |  |
-| Studentu Skirstymas |  |  |  |
+| Failo Skaitymas     | 1.262 | 1.27 | 1.31 |
+| Studentu Rikiavimas | 0.282 | 0.272 | 0.284 |
+| Studentu Skirstymas | 0.071 | 0.071 | 0.072 |
 |`.exe` Failo dydis   |108 KB|110 KB|125 KB|
 
 | `10000000 studentu` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
-| Failo Skaitymas     |  |  |  |
-| Studentu Rusiavimas |  |  |  |
-| Studentu Skirstymas |  |  |  |
+| Failo Skaitymas     | 12.992 | 13.273 | 13.089 |
+| Studentu Rikiavimas | 3.54 | 3.476 |  3.152|
+| Studentu Skirstymas | 0.914 | 0.927 | 0.991 |
 |`.exe` Failo dydis   |108 KB|110 KB|125 KB|
 
 ## Vector programos su CLASS tyrimas
 
 | `100000 studentu` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
-| Failo Skaitymas     |  |  |  |
-| Studentu Rusiavimas |  |  |  |
-| Studentu Skirstymas |  |  |  |
-|`.exe` Failo dydis   |105 KB|102 KB|114 KB|
+| Failo Skaitymas     | 0.165 | 0.169 | 0.165 |
+| Studentu Rikiavimas | 0.068 | 0.068 | 0.065 |
+| Studentu Skirstymas | 0.01 | 0.009 | 0.009 |
+|`.exe` Failo dydis   | 105 KB | 106 KB | 114 KB |
 
 | `1000000 studentu` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
-| Failo Skaitymas     |  |  |  |
-| Studentu Rusiavimas |  |  |  |
-| Studentu Skirstymas |  |  |  |
-|`.exe` Failo dydis   |105 KB|102 KB|114 KB|
+| Failo Skaitymas     | 1.498 | 1.483 | 1.484 |
+| Studentu Rikiavimas | 0.768 | 0.745 | 0.708 |
+| Studentu Skirstymas | 0.103 | 0.104 | 0.1 |
+|`.exe` Failo dydis   | 105 KB | 106 KB | 114 KB |
 
 | `10000000 studentu` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
-| Failo Skaitymas     |  |  |  |
-| Studentu Rusiavimas |  |  |  |
-| Studentu Skirstymas |  |  |  |
-|`.exe` Failo dydis   |105 KB|102 KB|114 KB|
+| Failo Skaitymas     | 16.473 | 15.955 | 15.534 |
+| Studentu Rikiavimas | 9.31 | 9.334 | 8.921 |
+| Studentu Skirstymas | 1.25 | 1.205 | 1.196 |
+|`.exe` Failo dydis   | 105 KB | 106 KB | 114 KB |
 
 ## STRUCT laiku vidurkis
 
 | `Laiku Vidurkis` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
-| Failo Skaitymas     |  |  |  |
-| Studentu Rusiavimas |  |  |  |
-| Studentu Skirstymas |  |  |  |
+| Failo Skaitymas     | 4.797 | 4.8937 | 4.847 |
+| Studentu Rikiavimas | 1.2833 | 1.2587 | 1.1537 |
+| Studentu Skirstymas | 0.33 | 0.3343 | 0.356 |
 |`.exe` Failo dydis   |108 KB|110 KB|125 KB|
 
  ## CLASS laiku vidurkis
  
 | `Laiku Vidurkis` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
-| Failo Skaitymas     |  |  |  |
-| Studentu Rusiavimas |  |  |  |
-| Studentu Skirstymas |  |  |  |
+| Failo Skaitymas     | 6.712 | 5.869 | 5.7277 |
+| Studentu Rikiavimas | 3.382 | 3.3823 | 3.2313 |
+| Studentu Skirstymas | 0.4543 | 0.4393 | 0.435 |
 |`.exe` Failo dydis   |105 KB|102 KB|114 KB|
 
 # Naudotojo vadovas
@@ -121,8 +121,10 @@
 4. Pasirinkus skaičių 5 iš meniu, bus prašoma įvesti studentų skaičių ir namų darbų kiekį.
     
     ```
-    How many students you want to generate in file?: 10000
-    How many tasks should students have (final counts in)?: 10
+    How many students you want to generate in file?:
+    Number:
+    How many tasks should students have (final counts in)?: 
+    Number: 
     ```
 
     - Įvedus studentų skaičių 10000, atitinkamai bus sukurtas `StudentaiGen10000.txt` failas.
@@ -143,13 +145,16 @@
       1 - to 'k' and 'l' containers
       2 - to 'l' and leaving only good students in a 's' container
       3 - optimized and best strategy
-      Strategy:
+      Choice:
       ```
       
     - Tuomet bus prašoma pasirinkti pagal kokį balą norima rūšiuoti, įrašant raidę `a` arba `m`.
       
       ```
-      Choose either average (type a) or median (type m): a
+      Choose the output grade:
+      a - average
+      m - median
+      Choice:
       ```
       
     - Tuomet bus prašoma pasirinkti rūšiavimo būdą, įrašant skaičių nuo 1 iki 3.
