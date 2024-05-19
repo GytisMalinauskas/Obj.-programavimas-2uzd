@@ -13,22 +13,22 @@
 
 | `100000 studentu` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
-| Failo Skaitymas     |  |  |  |
-| Studentu Rusiavimas |  |  |  |
-| Studentu Skirstymas |  |  |  |
+| Failo Skaitymas     | 0.165 |  |  |
+| Studentu Rikiavimas | 0.068 |  |  |
+| Studentu Skirstymas | 0.01 |  |  |
 |`.exe` Failo dydis   |108 KB|110 KB|125 KB|
 
 | `1000000 studentu` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
 | Failo Skaitymas     |  |  |  |
-| Studentu Rusiavimas |  |  |  |
+| Studentu Rikiavimas |  |  |  |
 | Studentu Skirstymas |  |  |  |
 |`.exe` Failo dydis   |108 KB|110 KB|125 KB|
 
 | `10000000 studentu` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
 | Failo Skaitymas     |  |  |  |
-| Studentu Rusiavimas |  |  |  |
+| Studentu Rikiavimas |  |  |  |
 | Studentu Skirstymas |  |  |  |
 |`.exe` Failo dydis   |108 KB|110 KB|125 KB|
 
@@ -37,30 +37,30 @@
 | `100000 studentu` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
 | Failo Skaitymas     |  |  |  |
-| Studentu Rusiavimas |  |  |  |
+| Studentu Rikiavimas |  |  |  |
 | Studentu Skirstymas |  |  |  |
-|`.exe` Failo dydis   |105 KB|102 KB|114 KB|
+|`.exe` Failo dydis   | 105 KB | 106 KB | 114 KB |
 
 | `1000000 studentu` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
 | Failo Skaitymas     |  |  |  |
-| Studentu Rusiavimas |  |  |  |
+| Studentu Rikiavimas |  |  |  |
 | Studentu Skirstymas |  |  |  |
-|`.exe` Failo dydis   |105 KB|102 KB|114 KB|
+|`.exe` Failo dydis   | 105 KB | 106 KB | 114 KB |
 
 | `10000000 studentu` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
 | Failo Skaitymas     |  |  |  |
-| Studentu Rusiavimas |  |  |  |
+| Studentu Rikiavimas |  |  |  |
 | Studentu Skirstymas |  |  |  |
-|`.exe` Failo dydis   |105 KB|102 KB|114 KB|
+|`.exe` Failo dydis   | 105 KB | 106 KB | 114 KB |
 
 ## STRUCT laiku vidurkis
 
 | `Laiku Vidurkis` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
 | Failo Skaitymas     |  |  |  |
-| Studentu Rusiavimas |  |  |  |
+| Studentu Rikiavimas |  |  |  |
 | Studentu Skirstymas |  |  |  |
 |`.exe` Failo dydis   |108 KB|110 KB|125 KB|
 
@@ -69,7 +69,7 @@
 | `Laiku Vidurkis` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
 | Failo Skaitymas     |  |  |  |
-| Studentu Rusiavimas |  |  |  |
+| Studentu Rikiavimas |  |  |  |
 | Studentu Skirstymas |  |  |  |
 |`.exe` Failo dydis   |105 KB|102 KB|114 KB|
 
