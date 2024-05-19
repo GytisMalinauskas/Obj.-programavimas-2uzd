@@ -121,8 +121,10 @@
 4. Pasirinkus skaičių 5 iš meniu, bus prašoma įvesti studentų skaičių ir namų darbų kiekį.
     
     ```
-    How many students you want to generate in file?: 10000
-    How many tasks should students have (final counts in)?: 10
+    How many students you want to generate in file?:
+    Number:
+    How many tasks should students have (final counts in)?: 
+    Number: 
     ```
 
     - Įvedus studentų skaičių 10000, atitinkamai bus sukurtas `StudentaiGen10000.txt` failas.
@@ -143,13 +145,13 @@
       1 - to 'k' and 'l' containers
       2 - to 'l' and leaving only good students in a 's' container
       3 - optimized and best strategy
-      Strategy:
+      Choice:
       ```
       
     - Tuomet bus prašoma pasirinkti pagal kokį balą norima rūšiuoti, įrašant raidę `a` arba `m`.
       
       ```
-      Choose either average (type a) or median (type m): a
+      
       ```
       
     - Tuomet bus prašoma pasirinkti rūšiavimo būdą, įrašant skaičių nuo 1 iki 3.
