@@ -151,7 +151,10 @@
     - Tuomet bus prašoma pasirinkti pagal kokį balą norima rūšiuoti, įrašant raidę `a` arba `m`.
       
       ```
-      
+      Choose the output grade:
+      a - average
+      m - median
+      Choice:
       ```
       
     - Tuomet bus prašoma pasirinkti rūšiavimo būdą, įrašant skaičių nuo 1 iki 3.
