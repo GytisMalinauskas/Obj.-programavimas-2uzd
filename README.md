@@ -10,7 +10,7 @@
 
 ## Vector programos su STRUCT tyrimas
 
-| *100000 studentu* | -O1 | -O2 | -O3 |
+| `100000 studentu` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
 | Failo Skaitymas     |  |  |  |
 | Studentu Rusiavimas | 0.215 | 0.048 | 0.503 |
