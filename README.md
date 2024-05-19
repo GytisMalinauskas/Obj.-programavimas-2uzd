@@ -17,14 +17,14 @@
 | Studentu Skirstymas | 0.048 | 0.257 | 0.14 |
 |`.exe` Failo dydis   |108 KB|110 KB|125 KB|
 
-| *1000000 studentu* | -O1 | -O2 | -O3 |
+| `1000000 studentu` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
 | Failo Skaitymas     | 2.304 | 5.051 | 2.333 |
 | Studentu Rusiavimas | 2.704 | 0.428 | 5.974 |
 | Studentu Skirstymas | 0.496 | 2.679 | 1.384 |
 |`.exe` Failo dydis   |108 KB|110 KB|125 KB|
 
-| *10000000 studentu* | -O1 | -O2 | -O3 |
+| `10000000 studentu` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
 | Failo Skaitymas     | 24.329 | 49.583 | 24.469 |
 | Studentu Rusiavimas | 32.311 | 5.274 | 71.405 |
@@ -33,21 +33,21 @@
 
 ## Vector programos su CLASS tyrimas
 
-| *100000 studentu* | -O1 | -O2 | -O3 |
+| `100000 studentu` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
 | Failo Skaitymas     | 0.245 | 0.51 | 0.252 |
 | Studentu Rusiavimas | 0.222 | 0.047 | 0.493 |
 | Studentu Skirstymas | 0.031 | 0.025 | 0.092 |
 |`.exe` Failo dydis   |105 KB|102 KB|114 KB|
 
-| *1000000 studentu* | -O1 | -O2 | -O3 |
+| `1000000 studentu` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
 | Failo Skaitymas     | 2.4 | 4.825 | 2.433 |
 | Studentu Rusiavimas | 2.724 | 0.433 | 6.179 |
 | Studentu Skirstymas | 0.337 | 0.248 | 0.929 |
 |`.exe` Failo dydis   |105 KB|102 KB|114 KB|
 
-| *10000000 studentu* | -O1 | -O2 | -O3 |
+| `10000000 studentu` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
 | Failo Skaitymas     | 23.959 | 49.439| 23.264 |
 | Studentu Rusiavimas | 31.419 | 6.666 | 72.756 |
@@ -56,7 +56,7 @@
 
 ## STRUCT laiku vidurkis
 
-| *Laiku Vidurkis* | -O1 | -O2 | -O3 |
+| `Laiku Vidurkis` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
 | Failo Skaitymas     | 5.386 | 11.041 | 5.417 |
 | Studentu Rusiavimas | 7.051 | 1.151 | 15.586 |
@@ -65,7 +65,7 @@
 
  ## CLASS laiku vidurkis
  
-| *Laiku Vidurkis* | -O1 | -O2 | -O3 |
+| `Laiku Vidurkis` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
 | Failo Skaitymas     | 5.328 | 10.974 | 5.198 |
 | Studentu Rusiavimas | 6.878| 1.43 | 15.896 |
