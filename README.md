@@ -59,18 +59,18 @@
 
 | `Laiku Vidurkis` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
-| Failo Skaitymas     |  |  |  |
-| Studentu Rikiavimas |  |  |  |
-| Studentu Skirstymas |  |  |  |
+| Failo Skaitymas     | 4.797 | 4.8937 | 4.847 |
+| Studentu Rikiavimas | 1.2833 | 1.2587 | 1.1537 |
+| Studentu Skirstymas | 0.33 | 0.3343 | 0.356 |
 |`.exe` Failo dydis   |108 KB|110 KB|125 KB|
 
  ## CLASS laiku vidurkis
  
 | `Laiku Vidurkis` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
-| Failo Skaitymas     |  |  |  |
-| Studentu Rikiavimas |  |  |  |
-| Studentu Skirstymas |  |  |  |
+| Failo Skaitymas     | 6.712 | 5.869 | 5.7277 |
+| Studentu Rikiavimas | 3.382 | 3.3823 | 3.2313 |
+| Studentu Skirstymas | 0.4543 | 0.4393 | 0.435 |
 |`.exe` Failo dydis   |105 KB|102 KB|114 KB|
 
 # Naudotojo vadovas
