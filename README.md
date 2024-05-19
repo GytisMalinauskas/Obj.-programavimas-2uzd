@@ -5,6 +5,7 @@
 *HDD: Macintosh HD 500GB*\
 \
 *Tyrimai yra atliekami su 100000, 1000000 ir 10000000 studentu*\
+*Kiekvienas studentas turi 10 namu darbu*\
 *Tyrimui naudota 3-oji strategija*\
 *Laikai aprasyti sekundes formatu*
 
