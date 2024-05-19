@@ -6,7 +6,7 @@
 \
 *Tyrimai yra atliekami su 100000, 1000000 ir 10000000 studentu*\
 *Naudota 3 strategija*\
-*Laikai aprasyti sekundes formatu*\ 
+*Laikai aprasyti sekundes formatu*
 
 ## Vector programos su STRUCT tyrimas
 
