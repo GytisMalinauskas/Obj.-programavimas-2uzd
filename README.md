@@ -108,6 +108,7 @@
     Enter number
     1 - n and m is given
     2 - n and m is not given
+    Number:
     ```
 
     - Pasirinkus skaičių 1, bus prašoma įvesti studentų skaičių ir namų darbų kiekį.
