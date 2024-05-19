@@ -54,7 +54,7 @@
 | Studentu Skirstymas | 3.623 | 7.173 | 14.943 |
 |`.exe` Failo dydis   |105 KB|102 KB|114 KB|
 
-**STRUCT laiku vidurkis**
+## STRUCT laiku vidurkis
 
 | *Laiku Vidurkis* | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
@@ -63,7 +63,7 @@
 | Studentu Skirstymas | 1.423 | 7.014 | 4.794 |
 |`.exe` Failo dydis   |108 KB|110 KB|125 KB|
 
- **CLASS laiku vidurkis**
+ ## CLASS laiku vidurkis
  
 | *Laiku Vidurkis* | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
