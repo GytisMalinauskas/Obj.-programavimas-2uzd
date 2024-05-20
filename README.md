@@ -1,4 +1,4 @@
-# Programa v1.1
+# Programa v1.2
 **Sistemos specifikacijos**\
 *CPU: 2,6 GHz 6-Core Intel Core i7*\
 *RAM: 16 GB 2400 MHz DDR4*\
@@ -9,69 +9,48 @@
 *Tyrimui naudota 3-oji strategija*\
 *Laikai aprasyti sekundes formatu*
 
-## Vector programos su STRUCT tyrimas
-
-| `100000 studentu` | -O1 | -O2 | -O3 |
-|:-------------------:|:------------:|:-------------:|:------------:|
-| Failo Skaitymas     | 0.137 | 0.138 | 0.142 |
-| Studentu Rikiavimas | 0.028 | 0.028 | 0.025 |
-| Studentu Skirstymas | 0.005 | 0.005 | 0.005 |
-|`.exe` Failo dydis   |108 KB|110 KB|125 KB|
-
-| `1000000 studentu` | -O1 | -O2 | -O3 |
-|:-------------------:|:------------:|:-------------:|:------------:|
-| Failo Skaitymas     | 1.262 | 1.27 | 1.31 |
-| Studentu Rikiavimas | 0.282 | 0.272 | 0.284 |
-| Studentu Skirstymas | 0.071 | 0.071 | 0.072 |
-|`.exe` Failo dydis   |108 KB|110 KB|125 KB|
-
-| `10000000 studentu` | -O1 | -O2 | -O3 |
-|:-------------------:|:------------:|:-------------:|:------------:|
-| Failo Skaitymas     | 12.992 | 13.273 | 13.089 |
-| Studentu Rikiavimas | 3.54 | 3.476 |  3.152|
-| Studentu Skirstymas | 0.914 | 0.927 | 0.991 |
-|`.exe` Failo dydis   |108 KB|110 KB|125 KB|
-
 ## Vector programos su CLASS tyrimas
 
 | `100000 studentu` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
-| Failo Skaitymas     | 0.165 | 0.169 | 0.165 |
-| Studentu Rikiavimas | 0.068 | 0.068 | 0.065 |
-| Studentu Skirstymas | 0.01 | 0.009 | 0.009 |
-|`.exe` Failo dydis   | 105 KB | 106 KB | 114 KB |
+| Failo Skaitymas     | 0.16 | 0.16 | 0.16 |
+| Studentu Rikiavimas | 0.03 | 0.03 | 0.03 |
+| Studentu Skirstymas | 0.01 | 0.01 | 0.01 |
+|`.exe` Failo dydis   | 101 KB | 103 KB | 118 KB |
 
 | `1000000 studentu` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
-| Failo Skaitymas     | 1.498 | 1.483 | 1.484 |
-| Studentu Rikiavimas | 0.768 | 0.745 | 0.708 |
-| Studentu Skirstymas | 0.103 | 0.104 | 0.1 |
-|`.exe` Failo dydis   | 105 KB | 106 KB | 114 KB |
+| Failo Skaitymas     | 1.48 | 1.44 | 1.43 |
+| Studentu Rikiavimas | 0.29 | 0.3 | 0.3 |
+| Studentu Skirstymas | 0.13 | 0.14 | 0.14 |
+|`.exe` Failo dydis   | 101 KB | 103 KB | 118 KB |
 
 | `10000000 studentu` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
-| Failo Skaitymas     | 16.473 | 15.955 | 15.534 |
-| Studentu Rikiavimas | 9.31 | 9.334 | 8.921 |
-| Studentu Skirstymas | 1.25 | 1.205 | 1.196 |
-|`.exe` Failo dydis   | 105 KB | 106 KB | 114 KB |
+| Failo Skaitymas     | 16.1 | 15.81 | 15.47 |
+| Studentu Rikiavimas | 3.7 | 3.82 | 3.67 |
+| Studentu Skirstymas | 1.76 | 1.72 | 1.74 |
+|`.exe` Failo dydis   | 101 KB | 103 KB | 118 KB |
 
-## STRUCT laiku vidurkis
+# Programos naudojimo instrukcija
 
-| `Laiku Vidurkis` | -O1 | -O2 | -O3 |
-|:-------------------:|:------------:|:-------------:|:------------:|
-| Failo Skaitymas     | 4.797 | 4.8937 | 4.847 |
-| Studentu Rikiavimas | 1.2833 | 1.2587 | 1.1537 |
-| Studentu Skirstymas | 0.33 | 0.3343 | 0.356 |
-|`.exe` Failo dydis   |108 KB|110 KB|125 KB|
+Ši programa leidžia vartotojui įvesti ir išvesti duomenis keliais skirtingais būdais, priklausomai nuo pasirinkto programos veikimo būdo. Žemiau pateikiama išsami instrukcija, kaip naudoti programą.
 
- ## CLASS laiku vidurkis
- 
-| `Laiku Vidurkis` | -O1 | -O2 | -O3 |
-|:-------------------:|:------------:|:-------------:|:------------:|
-| Failo Skaitymas     | 6.712 | 5.869 | 5.7277 |
-| Studentu Rikiavimas | 3.382 | 3.3823 | 3.2313 |
-| Studentu Skirstymas | 0.4543 | 0.4393 | 0.435 |
-|`.exe` Failo dydis   |105 KB|102 KB|114 KB|
+## Įvesties perdengimo metodai
+
+Duomenų įvestis rankiniu ir automatiniu būdu įvyksta, kai duomenų skaitymui yra naudojamas `istream` objektas (šios programos atveju `cin`), o tada žiūrima pagal vartotojo pasirinktą programos veikimo eiga:
+
+- Jei `skaicius == 1`, tai studentų įvedimas vyksta rankiniu būdu.
+- Jei `skaicius == 2`, tai studentų vardo ir pavardės įvedimas vyksta rankiniu būdu, o pažymiai yra sugeneruojami.
+- Jei `skaicius == 3`, tai studentų yra sugeneruojama tiek, kiek nori vartotojas.
+
+Duomenų įvestis iš failo įvyksta, kai duomenų skaitymui naudojamas `istringstream` objektas ir `skaicius == 4`.
+
+## Išvesties perdengimo metodai
+
+Duomenų išvedimas per konsolę įvyksta, kai duomenų išvedimui yra naudojamas `ostream` objektas (šios programos atveju `cout`).
+
+Duomenų išvedimas į failą įvyksta, kai duomenų išvedimui yra naudojamas `ofstream` objektas.
 
 # Naudotojo vadovas
 
