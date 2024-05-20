@@ -13,24 +13,24 @@
 
 | `100000 studentu` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
-| Failo Skaitymas     | 0.165 | 0.169 | 0.165 |
-| Studentu Rikiavimas | 0.068 | 0.068 | 0.065 |
-| Studentu Skirstymas | 0.01 | 0.009 | 0.009 |
-|`.exe` Failo dydis   | 105 KB | 106 KB | 114 KB |
+| Failo Skaitymas     | 0.16 | 0.16 | 0.16 |
+| Studentu Rikiavimas | 0.03 | 0.03 | 0.03 |
+| Studentu Skirstymas | 0.01 | 0.01 | 0.01 |
+|`.exe` Failo dydis   | 101 KB | 103 KB | 118 KB |
 
 | `1000000 studentu` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
-| Failo Skaitymas     | 1.498 | 1.483 | 1.484 |
-| Studentu Rikiavimas | 0.768 | 0.745 | 0.708 |
-| Studentu Skirstymas | 0.103 | 0.104 | 0.1 |
-|`.exe` Failo dydis   | 105 KB | 106 KB | 114 KB |
+| Failo Skaitymas     | 1.48 | 1.44 | 1.43 |
+| Studentu Rikiavimas | 0.29 | 0.3 | 0.3 |
+| Studentu Skirstymas | 0.13 | 0.14 | 0.14 |
+|`.exe` Failo dydis   | 101 KB | 103 KB | 118 KB |
 
 | `10000000 studentu` | -O1 | -O2 | -O3 |
 |:-------------------:|:------------:|:-------------:|:------------:|
-| Failo Skaitymas     | 16.473 | 15.955 | 15.534 |
-| Studentu Rikiavimas | 9.31 | 9.334 | 8.921 |
-| Studentu Skirstymas | 1.25 | 1.205 | 1.196 |
-|`.exe` Failo dydis   | 105 KB | 106 KB | 114 KB |
+| Failo Skaitymas     | 16.1 | 15.81 | 15.47 |
+| Studentu Rikiavimas | 3.7 | 3.82 | 3.67 |
+| Studentu Skirstymas | 1.76 | 1.72 | 1.74 |
+|`.exe` Failo dydis   | 101 KB | 103 KB | 118 KB |
 
 # Naudotojo vadovas
 
