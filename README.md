@@ -32,6 +32,26 @@
 | Studentu Skirstymas | 1.76 | 1.72 | 1.74 |
 |`.exe` Failo dydis   | 101 KB | 103 KB | 118 KB |
 
+# Programos naudojimo instrukcija
+
+Ši programa leidžia vartotojui įvesti ir išvesti duomenis keliais skirtingais būdais, priklausomai nuo pasirinkto programos veikimo būdo. Žemiau pateikiama išsami instrukcija, kaip naudoti programą.
+
+## Įvesties perdengimo metodai
+
+Duomenų įvestis rankiniu ir automatiniu būdu įvyksta, kai duomenų skaitymui yra naudojamas `istream` objektas (šios programos atveju `cin`), o tada žiūrima pagal vartotojo pasirinktą programos veikimo eiga:
+
+- Jei `skaicius == 1`, tai studentų įvedimas vyksta rankiniu būdu.
+- Jei `skaicius == 2`, tai studentų vardo ir pavardės įvedimas vyksta rankiniu būdu, o pažymiai yra sugeneruojami.
+- Jei `skaicius == 3`, tai studentų yra sugeneruojama tiek, kiek nori vartotojas.
+
+Duomenų įvestis iš failo įvyksta, kai duomenų skaitymui naudojamas `istringstream` objektas ir `skaicius == 4`.
+
+## Išvesties perdengimo metodai
+
+Duomenų išvedimas per konsolę įvyksta, kai duomenų išvedimui yra naudojamas `ostream` objektas (šios programos atveju `cout`).
+
+Duomenų išvedimas į failą įvyksta, kai duomenų išvedimui yra naudojamas `ofstream` objektas.
+
 # Naudotojo vadovas
 
 ## 1. Parsisiųskite ir paruoškite kodą
