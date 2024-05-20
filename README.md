@@ -1,4 +1,4 @@
-# Programa v1.1
+# Programa v1.2
 **Sistemos specifikacijos**\
 *CPU: 2,6 GHz 6-Core Intel Core i7*\
 *RAM: 16 GB 2400 MHz DDR4*\
@@ -8,29 +8,6 @@
 *Kiekvienas studentas turi 10 namu darbu*\
 *Tyrimui naudota 3-oji strategija*\
 *Laikai aprasyti sekundes formatu*
-
-## Vector programos su STRUCT tyrimas
-
-| `100000 studentu` | -O1 | -O2 | -O3 |
-|:-------------------:|:------------:|:-------------:|:------------:|
-| Failo Skaitymas     | 0.137 | 0.138 | 0.142 |
-| Studentu Rikiavimas | 0.028 | 0.028 | 0.025 |
-| Studentu Skirstymas | 0.005 | 0.005 | 0.005 |
-|`.exe` Failo dydis   |108 KB|110 KB|125 KB|
-
-| `1000000 studentu` | -O1 | -O2 | -O3 |
-|:-------------------:|:------------:|:-------------:|:------------:|
-| Failo Skaitymas     | 1.262 | 1.27 | 1.31 |
-| Studentu Rikiavimas | 0.282 | 0.272 | 0.284 |
-| Studentu Skirstymas | 0.071 | 0.071 | 0.072 |
-|`.exe` Failo dydis   |108 KB|110 KB|125 KB|
-
-| `10000000 studentu` | -O1 | -O2 | -O3 |
-|:-------------------:|:------------:|:-------------:|:------------:|
-| Failo Skaitymas     | 12.992 | 13.273 | 13.089 |
-| Studentu Rikiavimas | 3.54 | 3.476 |  3.152|
-| Studentu Skirstymas | 0.914 | 0.927 | 0.991 |
-|`.exe` Failo dydis   |108 KB|110 KB|125 KB|
 
 ## Vector programos su CLASS tyrimas
 
@@ -54,24 +31,6 @@
 | Studentu Rikiavimas | 9.31 | 9.334 | 8.921 |
 | Studentu Skirstymas | 1.25 | 1.205 | 1.196 |
 |`.exe` Failo dydis   | 105 KB | 106 KB | 114 KB |
-
-## STRUCT laiku vidurkis
-
-| `Laiku Vidurkis` | -O1 | -O2 | -O3 |
-|:-------------------:|:------------:|:-------------:|:------------:|
-| Failo Skaitymas     | 4.797 | 4.8937 | 4.847 |
-| Studentu Rikiavimas | 1.2833 | 1.2587 | 1.1537 |
-| Studentu Skirstymas | 0.33 | 0.3343 | 0.356 |
-|`.exe` Failo dydis   |108 KB|110 KB|125 KB|
-
- ## CLASS laiku vidurkis
- 
-| `Laiku Vidurkis` | -O1 | -O2 | -O3 |
-|:-------------------:|:------------:|:-------------:|:------------:|
-| Failo Skaitymas     | 6.712 | 5.869 | 5.7277 |
-| Studentu Rikiavimas | 3.382 | 3.3823 | 3.2313 |
-| Studentu Skirstymas | 0.4543 | 0.4393 | 0.435 |
-|`.exe` Failo dydis   |105 KB|102 KB|114 KB|
 
 # Naudotojo vadovas
 
