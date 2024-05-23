@@ -52,6 +52,40 @@ Duomenų išvedimas per konsolę įvyksta, kai duomenų išvedimui yra naudojama
 
 Duomenų išvedimas į failą įvyksta, kai duomenų išvedimui yra naudojamas `ofstream` objektas.
 
+# Studento klasės Testai
+
+Projektas apima kelis testus, skirtus `Studentas` klasei:
+
+## `test_default_constructor()`
+
+Tikrina numatytojo konstruktoriaus funkcionalumą. Sukuria `Studentas` objektą naudojant numatytąjį konstruktorių ir patikrina, ar pradinės reikšmės yra teisingos.
+
+## `test_parametrized_constructor()`
+
+Tikrina parametrizuoto konstruktoriaus funkcionalumą. Sukuria `Studentas` objektą naudojant parametrizuotą konstruktorių su vardu ir pavardė bei patikrina pradinės reikšmės.
+
+## `test_copy_constructor()`
+
+Tikrina kopijavimo konstruktoriaus funkcionalumą. Sukuria `Studentas` objektą ir jo kopiją naudojant kopijavimo konstruktorių ir patikrina, ar visos reikšmės teisingai perkeltos.
+
+## `test_move_constructor()`
+
+Tikrina perkėlimo konstruktoriaus funkcionalumą. Sukuria `Studentas` objektą ir jo perkėlimą naudojant perkėlimo konstruktorių ir patikrina, ar reikšmės perkeltos ir pradinės reikšmės išvalytos.
+
+## `test_get_set_methods()`
+
+Tikrina `Studentas` klasės getter ir setter metodus, kad įsitikintų, jog jie veikia teisingai.
+
+## `test_input_operator()`
+
+Tikrina įvedimo operatoriaus perkrovimą (`operator>>`) ir patikrina, ar reikšmės teisingai įvedamos į `Studentas` objektą.
+
+## `test_output_operator()`
+
+Tikrina išvedimo operatoriaus perkrovimą (`operator<<`) ir patikrina, ar reikšmės teisingai išvedamos iš `Studentas` objekto.
+
+**Pastaba:** Kiekvienas testas atlieka specifinius veiksmus, siekiant užtikrinti `Studentas` klasės teisingą veikimą. Tai apima konstruktorių funkcionalumo patikrinimą, getter ir setter metodų veikimo tikrinimą, taip pat įvesties ir išvesties operatorių perkrovimų testavimą.
+
 # Naudotojo vadovas
 
 ## 1. Parsisiųskite ir paruoškite kodą
