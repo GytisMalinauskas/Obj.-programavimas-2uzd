@@ -1,10 +1,21 @@
 #include "../headers/main.h"
-int number1,skaicius,n,m;  
 vector<string> names;
 vector<string> surnames;
-vector <studentas> s; //studentai
+int number1;
+int skaicius;
+int n;
+int m;
 int main() 
 {
+   test_default_constructor();
+    test_parametrized_constructor();
+    test_copy_constructor();
+    test_move_constructor();
+    test_get_set_methods();
+    test_input_operator();
+    test_output_operator();
+
+    std::cout << "All constructor tests passed!" << std::endl;
   try{
   auto start=chrono::high_resolution_clock::now();
   srand(time(0));
