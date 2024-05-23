@@ -3,7 +3,10 @@ CXX = g++
 CXXFLAGS = -std=c++11 -Wall -Iheaders
 
 # Šaltinio failai
-SRC = $(wildcard source/*.cpp)
+SRC = $(wildcard vector/source/*.cpp)
+
+# Testų failai
+TEST_SRC = $(wildcard vector/tests/*.cpp)
 
 # Vykdomasis failas
 TARGET = run
@@ -15,7 +18,7 @@ OPT_FLAGS_O2 = -O2
 OPT_FLAGS_O3 = -O3
 
 # Pagrindinė taisyklė
-all: $(OPT_LEVELS)
+all: $(OPT_LEVELS) test
 
 # Targets for each optimization level
 O1: CXXFLAGS += $(OPT_FLAGS_O1)
@@ -40,6 +43,12 @@ $(TARGET)_O3:
 	@echo "Building target with -O3: $@"
 	$(CXX) $(CXXFLAGS) $(OPT_FLAGS_O3) -o $@ $(SRC)
 
+# Testų vykdymo taisyklė
+test: $(TARGET)_O3
+	@echo "Running tests:"
+	$(CXX) $(CXXFLAGS) -o testas $(TEST_SRC)
+	./testas
+
 # Švaros taisyklė
 clean:
-	rm -f $(TARGET)_O1 $(TARGET)_O2 $(TARGET)_O3
+	rm -f $(TARGET)_O1 $(TARGET)_O2 $(TARGET)_O3 testas
