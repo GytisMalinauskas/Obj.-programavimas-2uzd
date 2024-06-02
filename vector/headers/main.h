@@ -7,6 +7,6 @@
 #include "error.h"
 #include "function.h"
 #include "zmogus.h"
-#include "testavimas.h"
+#include "globals.h"
 
 #endif

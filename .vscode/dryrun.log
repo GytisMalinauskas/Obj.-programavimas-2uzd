@@ -1,0 +1,6 @@
+make.exe --dry-run --keep-going --print-directory
+make: *** No targets specified and no makefile found.  Stop.
+
+make: Entering directory 'c:/Users/Gytis/Desktop/v2.0/Obj.-programavimas-2uzd'
+make: Leaving directory 'c:/Users/Gytis/Desktop/v2.0/Obj.-programavimas-2uzd'
+ 

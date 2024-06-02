@@ -20,6 +20,7 @@
 #include "studentas.h"
 #include "error.h"
 #include "zmogus.h"
+#include "globals.h"
 void Skaicius1(vector<studentas>& s, int &m, int skaicius, int MinP, int MaxP);
 void Skaicius2(vector<studentas>& s, int skaicius, int MinP, int MaxP);
 void FailoSkaitymas(vector <studentas> &s, string &duomPav);
